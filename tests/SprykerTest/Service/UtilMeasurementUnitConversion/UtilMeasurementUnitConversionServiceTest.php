@@ -31,9 +31,6 @@ class UtilMeasurementUnitConversionServiceTest extends Unit
      */
     protected $utilMeasurementUnitConversionService;
 
-    /**
-     * @return void
-     */
     public function setUp(): void
     {
         parent::setUp();
@@ -59,9 +56,6 @@ class UtilMeasurementUnitConversionServiceTest extends Unit
         $this->assertSame($expectedResult, $actualResult);
     }
 
-    /**
-     * @return array
-     */
     public function getExampleMeasurementUnitConversions(): array
     {
         return [
@@ -70,9 +64,6 @@ class UtilMeasurementUnitConversionServiceTest extends Unit
         ];
     }
 
-    /**
-     * @return void
-     */
     public function testGetMeasurementUnitExchangeRatioThrowsExceptionOnUndefinedExchangeRequest(): void
     {
         // Assign

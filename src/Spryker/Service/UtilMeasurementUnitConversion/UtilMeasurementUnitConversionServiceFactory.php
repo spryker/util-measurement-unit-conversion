@@ -16,9 +16,6 @@ use Spryker\Service\UtilMeasurementUnitConversion\Model\MeasurementUnitConverter
  */
 class UtilMeasurementUnitConversionServiceFactory extends AbstractServiceFactory
 {
-    /**
-     * @return \Spryker\Service\UtilMeasurementUnitConversion\Model\MeasurementUnitConverterInterface
-     */
     public function createMeasurementUnitConverter(): MeasurementUnitConverterInterface
     {
         return new MeasurementUnitConverter($this->getConfig());

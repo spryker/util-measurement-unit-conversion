@@ -22,9 +22,6 @@ class MeasurementUnitConverter implements MeasurementUnitConverterInterface
      */
     protected $utilMeasurementUnitConversionConfig;
 
-    /**
-     * @param \Spryker\Service\UtilMeasurementUnitConversion\UtilMeasurementUnitConversionConfig $utilMeasurementUnitConversionConfig
-     */
     public function __construct(UtilMeasurementUnitConversionConfig $utilMeasurementUnitConversionConfig)
     {
         $this->utilMeasurementUnitConversionConfig = $utilMeasurementUnitConversionConfig;
